@@ -1,0 +1,16 @@
+module ECC [system] {
+    explicit module UECC {
+        header "Libraries/include/uECC.h"
+        export *
+    }
+
+    explicit module RipeMD {
+        header "Libraries/include/ripemd160.h"
+        export *
+    }
+
+    explicit module Base58 {
+        header "Libraries/include/libbase58.h"
+        export *
+    }
+}
